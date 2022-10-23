@@ -12,6 +12,8 @@
 #page-header {
   /* 采用透明的方式取消，最后一个0表示透明 */
   background-color: rgba(255, 255, 255, 0);
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
 }
 
 /* 滚动条优化 */
@@ -257,7 +259,11 @@
   color: #4c4948;
 }
 
-/* banner透明遮罩层 */
+/* banner透明遮罩层
 #page-header:not(.not-top-img):before {
   background-color: rgba(0, 0, 0, 0);
+} */
+
+#footer-wrap {
+  top: -30px !important
 }
