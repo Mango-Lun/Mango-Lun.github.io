@@ -25,7 +25,7 @@ hr:before {
     position: absolute;
     color: #f47466;
     /* 回形针 */
-    content: '\f0c1';  
+    /* content: '\f0c1';   */
     line-height: 1;
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
@@ -33,11 +33,12 @@ hr:before {
     -ms-transition: all .2s ease-out;
     transition: all .2s ease-out;
     /* 若要使用风车效果，请去掉下面的注释 */
-    /* content: '\f863'; 
-    animation: avatar_turn_around 1s linear infinite; */
+    content: '\f863'; 
+    animation: avatar_turn_around 1s linear infinite;
 }
 #article-container h1 {
-    padding-left: 1.4rem
+    padding-left: 1.4rem;
+    transition: all 0.2s
 }
 
 #article-container h1 code {
@@ -51,11 +52,13 @@ hr:before {
 }
 
 #article-container h1:hover {
-    padding-left: 1.6rem
+    padding-left: 1.6rem;
+    transition: all 0.2s
 }
 
 #article-container h2 {
-    padding-left: 1.3rem
+    padding-left: 1.3rem;
+    transition: all 0.2s
 }
 
 #article-container h2 code {
@@ -69,11 +72,13 @@ hr:before {
 }
 
 #article-container h2:hover {
-    padding-left: 1.5rem
+    padding-left: 1.5rem;
+    transition: all 0.2s
 }
 
 #article-container h3 {
-    padding-left: 1.2rem
+    padding-left: 1.2rem;
+    transition: all 0.2s
 }
 
 #article-container h3 code {
@@ -89,11 +94,13 @@ hr:before {
 }
 
 #article-container h3:hover {
-    padding-left: 1.4rem
+    padding-left: 1.4rem;
+    transition: all 0.2s
 }
 
 #article-container h4 {
-    padding-left: 1.1rem
+    padding-left: 1.1rem;
+    transition: all 0.2s
 }
 
 #article-container h4 code {
@@ -107,11 +114,13 @@ hr:before {
 }
 
 #article-container h4:hover {
-    padding-left: 1.3rem
+    padding-left: 1.3rem;
+    transition: all 0.2s
 }
 
 #article-container h5 {
-    padding-left: 1rem
+    padding-left: 1rem;
+    transition: all 0.2s
 }
 
 #article-container h5 code {
@@ -125,11 +134,13 @@ hr:before {
 }
 
 #article-container h5:hover {
-    padding-left: 1.2rem
+    padding-left: 1.2rem;
+    transition: all 0.2s
 }
 
 #article-container h6 {
-    padding-left: 1rem
+    padding-left: 1rem;
+    transition: all 0.2s
 }
 
 #article-container h6 code {
@@ -143,9 +154,11 @@ hr:before {
 }
 
 #article-container h6:hover {
-    padding-left: 1.2rem
+    padding-left: 1.2rem;
+    transition: all 0.2s
 }
 
+/* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px
