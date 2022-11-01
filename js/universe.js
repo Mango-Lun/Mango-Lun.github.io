@@ -19,7 +19,7 @@ function dark() {
     ;(n = window.innerWidth),
       (e = window.innerHeight),
       (i = 0.216 * n),
-      // s.setAttribute('width', n),
+      s.setAttribute('width', n),
       s.setAttribute('height', e)
   }
   function u() {

@@ -267,3 +267,20 @@
 #footer-wrap {
   top: -30px !important
 }
+
+@font-face {
+  /* 字体名自定义即可 */
+  font-family: 'tzy';
+  /* 字体文件路径 */
+  src: url('/ZhuZiAWan.woff2');
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
+}
+
+.aplayer-lrc {
+  visibility: hidden;
+}
