@@ -281,6 +281,8 @@ body,
   font-family: tzy !important;
 }
 
+/* 隐藏歌词 */
 .aplayer-lrc {
   visibility: hidden;
 }
+
