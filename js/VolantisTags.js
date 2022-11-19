@@ -13,3 +13,6 @@
 //   menus_item_child[i].style.display = 'none'
 //   menus_expand[i].className += ' menus-closed'
 // }
+
+var html = document.getElementsByTagName('html')
+html[0].setAttribute('data-theme', 'dark')
